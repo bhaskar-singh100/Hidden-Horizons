@@ -1,0 +1,320 @@
+.header{
+    display: flex;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: rgb(113, 186, 157);
+    position: fixed;
+    z-index: 1;
+}
+#name{
+    font-weight: 500;
+
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#navbar{
+    margin-left: 50px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 700;
+}
+#navbar #signin{
+    display: inline-block;
+}
+#navbar #signin button:hover{
+    color: rgb(197, 48, 48);
+}
+#navbar button{
+    background: transparent;
+    border: 2px rgb(113, 186, 157);
+}
+#signinForm {
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: 320px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 30;
+}
+#signinForm h2{
+    text-align: center;
+}
+#signinForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#signinForm input {
+    width: 90%;
+    padding: 5px;
+    height: 35px;
+    margin-bottom: 10px;
+    color: rgb(113, 186, 157);
+    border-color: rgb(113, 186, 157);
+    border-radius: 7px;
+
+}
+#signinForm button {
+    background-color: rgb(113, 186, 157);
+    color: #fff;
+    border-radius:7px;
+    cursor: pointer;
+    width:90%;
+    height: 35px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#signupForm {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 40;
+}
+#signupForm h2{
+    text-align: center;
+}
+#signupForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#signupForm input {
+    height: 35px;
+    padding: 5px;
+    width: 85%;
+    margin-bottom: 12px;
+    color: rgb(113, 186, 157);
+    border-radius: 10px;
+    border-color: rgb(113, 186, 157);
+}
+#signupForm button {
+    background-color: rgb(113, 186, 157);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 85%;
+    height: 35px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+#navbar #home{
+    display: inline-block;
+}
+#navbar #tours{
+    display: inline-block;
+}
+#navbar #signup{
+    display: inline-block;
+}
+#navbar #destination{
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin-left: 35px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+#searchbar{
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 5px;
+
+}
+#searchbar search{
+    border-radius: 15px;
+}
+#searchbar button{
+    border-radius: 5px;
+}
+#contact{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 5px;
+
+}
+#contact button{
+    margin-left: 5px;
+    opacity: 0.5;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.imagetext{
+    position: relative;
+    
+}
+.imagetext img{
+    height: 660px;
+    width: 100%;
+    opacity: 0.85;
+    z-index: 0;
+}
+
+#info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#info h1{
+    font-size: 65px;
+    font-family: cursive;
+}
+#info h3{
+    font-size: 20px;
+    font-family: cursive;
+}
+#info button{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(113, 186, 157);
+    margin-left: 150px;
+    border: 1px solid green;
+    z-index: 20;
+}
+.options{
+    background-color: rgb(113, 186, 157);
+    width:100%;
+    height: 90px;
+    padding: 25px 550px;
+}
+.options p{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: large;
+}
+.options button{
+    border: 1px solid rgb(0,0,0);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.options input{
+    width: 300px;
+    border-radius: 10px;
+}
+.places button{
+    border: 1px solid rgb(0,0,0);
+    border-radius: 5px;
+    background-color: rgb(150, 192, 175);
+    font-size: small;
+}
+.places img{
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in;
+}
+.places img:hover{
+    height: 223px;
+    
+}
+.places h2{
+    font-size: 35px;
+}
+.features_odd #text{
+    display: inline-block;
+    margin-right: 200px;
+    
+}
+.features_odd{
+    display: flex;
+    padding: 40px 0px 40px 200px;
+}
+.features_even #text{
+    display: inline-block;
+    margin-left: 200px;
+}
+.features_even {
+    display: flex;
+    padding: 40px 0px 40px 200px;
+}
+
+
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(150, 192, 175);
+    display: flex;
+    position: relative;
+}
+
+.footer #aim{
+    padding-top: 10px;
+    width: 40%;
+}
+.footer #contactus{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.footer #followus{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.footer #followus button{
+    margin-left: 5px;
+    opacity: 0.5;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.footer #copyright{
+    position: absolute;
+    top: 270px;
+    left: 40%;
+}
+
+
+
+#map{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+
+
+.package{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    border: 3px solid rgb(150, 192, 175);
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+}
+.package img{
+    width: 400px;
+}
